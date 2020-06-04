@@ -8,10 +8,11 @@ var total = document.querySelector (".totalOne");
 //var smsTotal = 13.75
 var callsTotal = 0.00;
 var smsTotal = 0.00;
+var billTotal = 0;
 
 function totalPhoneBill (billString){
 var billItems = billString.split (",");
-var billTotal = 0;
+//var billTotal = 0;
 for (var i=0;i<billItems.length;i++){
 var billItem = billItems[i].trim ();
 if (billItem === "call"){
