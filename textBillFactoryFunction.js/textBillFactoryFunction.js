@@ -55,17 +55,15 @@ var billTotal = 0;
   }
   
 
-  
-
   function getWarningLevel(){
     if (getTotal()>= 30) {
-      return "warning";
+      return 'warning';
     }
 
   }
   function getDangerLevel(){
     if (getTotal()>= 50) {
-      return "danger"
+      return 'danger';
     }
 
   }

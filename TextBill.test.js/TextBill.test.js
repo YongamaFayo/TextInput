@@ -58,7 +58,7 @@ describe("Warning Level", function () {
         settingsTest.setCallTotal("call");
         
         
-        assert.equal("warning",settingsTest.getWarningLevel());
+        assert.equal('warning',settingsTest.getWarningLevel());
 
 
     });
@@ -83,7 +83,7 @@ describe("Danger Level", function () {
         
 
         // settingsTest.setCallTotal("total");
-        assert.equal("danger",settingsTest.getDangerLevel());
+        assert.equal('danger',settingsTest.getDangerLevel());
 
 
     });
