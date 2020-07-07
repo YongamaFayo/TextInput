@@ -26,7 +26,7 @@ function totalPhoneBill(billString) {
         //}
     //} 
     textBilling.setCallTotal(billString)
-    var roundedBillTotal = textBilling.getCallTotal().toFixed(2);
+    var roundedBillTotal = textBilling.getTotal().toFixed(2);
     callTtl.innerHTML = textBilling.getCallTotal().toFixed(2);
     smsTtl.innerHTML = textBilling.getSMSTotal().toFixed(2);
     return roundedBillTotal;

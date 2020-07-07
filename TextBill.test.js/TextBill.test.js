@@ -56,7 +56,8 @@ describe("Warning Level", function () {
         settingsTest.setCallTotal("call");
         settingsTest.setCallTotal("call");
         settingsTest.setCallTotal("call");
-        
+        settingsTest.setCallTotal("call");
+        settingsTest.setCallTotal("call");
         
         assert.equal('warning',settingsTest.getWarningLevel());
 
@@ -70,6 +71,22 @@ describe("Danger Level", function () {
     it("should be able to show danger colour code", function () {
         let settingsTest = TextBillSettings();
 
+        settingsTest.setCallTotal("call");
+        settingsTest.setCallTotal("call");
+        settingsTest.setCallTotal("call");
+        settingsTest.setCallTotal("call");
+        settingsTest.setCallTotal("call");
+        settingsTest.setCallTotal("call");
+        settingsTest.setCallTotal("call");
+        settingsTest.setCallTotal("call");
+        settingsTest.setCallTotal("call");
+        settingsTest.setCallTotal("call");
+        settingsTest.setCallTotal("call");
+        settingsTest.setCallTotal("call");
+        settingsTest.setCallTotal("call");
+        settingsTest.setCallTotal("call");
+        settingsTest.setCallTotal("call");
+        settingsTest.setCallTotal("call");
         settingsTest.setCallTotal("call");
         settingsTest.setCallTotal("call");
         settingsTest.setCallTotal("call");
